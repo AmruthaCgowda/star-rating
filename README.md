@@ -3,7 +3,7 @@
 A simple and interactive star rating system that displays dynamic emojis based on the rating selected. Built with **HTML**, **Tailwind CSS**, and **JavaScript**, this app allows users to rate their experience and get real-time feedback through emojis.
 
 ## 🔗 Live Demo
-<a href="https://amruthacgowda.github.io/star-rating-demo" target="_blank">Star Rating</a>
+<a href="https://amruthacgowda.github.io/star-rating" target="_blank">Star Rating</a>
 
 ## 🛠️ Technologies Used
 
