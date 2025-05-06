@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Rating with Emoji</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="./index.js"></script>
+    <style>
+      .star {
+        font-size: 3rem;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="text-center bg-white p-6 rounded-lg shadow-lg w-[300px]">
+      <h1 class="text-xl font-semibold mb-4">Rate Your Experience</h1>
+
+      <!-- Stars container -->
+      <div id="starContainer" class="flex justify-center gap-2 mb-4"></div>
+
+      <!-- Emoji container (starts empty) -->
+      <div
+        id="smileyContainer"
+        class="text-5xl mt-4 h-[60px] flex items-center justify-center"
+      >
+        <span id="emojiOutput">🤔</span>
+      </div>
+    </div>
+    
+  </body>
+</html>
